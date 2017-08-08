@@ -1,6 +1,6 @@
 FROM openjdk
 
-ENV TABULA_VERSION 0.9.5
+ENV TABULA_VERSION 0.9.6
 
 RUN wget -q https://github.com/tabulapdf/tabula/releases/download/v$TABULA_VERSION/tabula-jar-$TABULA_VERSION.zip && \
     unzip tabula-jar-$TABULA_VERSION.zip && \
